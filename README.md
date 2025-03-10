@@ -1,11 +1,11 @@
-# Frappe Bench & Essential Applications Installation
+# Frappe Bench & Essential packges Installation
 
 ## Overview
-This repository contains Bash scripts for setting up a Frappe Bench environment and installing essential applications on an Ubuntu system. The scripts automate the installation of necessary dependencies, applications, and system configurations.
+This repository contains Bash scripts for setting up a Frappe Bench environment and installing essential packges on an Ubuntu system. The scripts automate the installation of necessary dependencies, packges, and system configurations.
 
 ## Features
 - **Frappe Bench Setup**: Installs and configures Frappe Bench for versions 14 and 15.
-- **Essential Applications**: Installs development tools, system utilities, and productivity applications.
+- **Essential packges**: Installs development tools, system utilities, and productivity packges.
 - **Automated Configuration**: Sets up MariaDB, Node.js, Git, Docker, and more.
 - **Firewall & Security**: Configures UFW firewall and secures MariaDB.
 
@@ -29,16 +29,16 @@ chmod +x bench_setup.sh
 ./frappe_bench.sh
 ```
 
-#### 2. Install Essential Applications
+#### 2. Install Essential packges
 ```sh
 cd tool-kit
-   cd applications
+   cd packges
 ```
  Run the script:
    ```bash
-   ./applications.sh
+   ./packges.sh
    ```
-## Applications Installed
+## packges Installed
 ### Development Tools
 - **VS Code** - Code editor
 - **Postman** - API testing
@@ -62,3 +62,5 @@ cd tool-kit
 
 ## Post-Installation Steps
 1. **Restart your system** to apply changes.
+
+
