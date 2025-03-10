@@ -22,7 +22,7 @@ sudo apt update && sudo apt install -y git
 
 git clone git@github.com:irfanzahoor/tool-kit.git
 cd tool-kit
-cd tool-kit
+cd bench_setup
 
 chmod +x bench_setup.sh
 ./frappe_bench.sh
